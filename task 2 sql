@@ -1,5 +1,5 @@
 use dbms;
-create table Employee1(eid  int primary key,name varchar(20),SALARY bigint,PHONE bigint,	EMAIL varchar(30));
+create table Employee1(eid  int primary key,name varchar(20),SALARY bigint,PHONE bigint,EMAIL varchar(30));
 insert  into Employee1 values('50014', 'virat', '55000', '6243637666', 'v@yahoo.com'); 
 insert  into Employee1 values('50015', 'laya', '60000',  '6328290767', 'pooja@tcs.com');
 insert  into Employee1 values( '50016', 'pooja', '65000', '6412943868', 'ab@gmail.com');
