@@ -1,0 +1,31 @@
+body {
+  background-color: red;
+}
+h1 {
+  color: Red;
+}
+.a{
+   color: green;
+}
+.b{
+ color: yellow;
+}
+.c{
+ color: violet;
+}
+.d{
+ color: light black;
+}
+h2{
+colour:blue;
+}
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
