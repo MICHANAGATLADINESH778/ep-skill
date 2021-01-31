@@ -1,0 +1,27 @@
+use myschema;
+create table Employee1(eid  int primary key,name varchar(20),SALARY bigint,PHONE bigint,EMAIL varchar(30));
+insert  into Employee1 values('31050', 'dinesh', '55000', '6243637666', 'dm471799@yahoo.com'); 
+insert  into Employee1 values('31051', 'eswar', '60000',  '6328290767', 'eswar@tcs.com');
+insert  into Employee1 values('31052', 'venkat', '65000', '6412943868', 'vr@gmail.com');
+insert  into Employee1 values('31053', 'barath', '70000','6497596969', 'barath@gmail.com');
+insert  into Employee1 values('31054', 'hanuma', '75000', '6582250070', 'hanuma@gmail.com');
+
+select * from Employee1;
+
+delete from Employee1 where eid =31054;
+
+select * from Employee1;
+
+Alter table Employee1 add age int;
+Alter table Employee1 add dob date;
+Alter table Employee1 add  designation  varchar(20);
+select * from Employee1;
+
+update Employee1 set age="24",dob='1998-01-12',designation="CC" where eid="31050";
+update Employee1 set age="25",dob='1997-07-18',designation="Prof." where eid="31051";
+update Employee1 set age="26",dob='1996-05-23',designation="Ass.Prof" where eid="31052";
+update Employee1 set age="27",dob='1995-04-19',designation="CC" where eid="31053";
+
+select * from Employee1;
+
+drop table Employee1;
